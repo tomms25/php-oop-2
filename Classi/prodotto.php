@@ -1,24 +1,24 @@
 <?php
 
+require_once __DIR__ . '/tyoe.php';
+
 class Product {
 
-    public $immagine;
     public $nome;
     public $prezzo;
+    public $caratteristiche;
     
 
-    public function __construct ($immagine, $nome, $prezzo)
+    public function __construct ($nome, $prezzo,$caratteristiche)
     {
-        $this->immagine = $immagine;
+        
         $this->nome = $nome;
-        $this ->prezzo = $prezzo; 
+        $this ->prezzo = $prezzo;
+        $this->caratteristiche = $caratteristiche;
 
     }
 
-
-
-
-
-
-
 }
+
+
+$cibo_in_scatola = new Product ("Carnilove", "12.99", )
