@@ -6,12 +6,12 @@ class Giocattoli extends Product {
     public $caratteristiche;
 
 
-    public function __construct {
+    public function __construct ($dimensioni, $caratteristiche) {
 
-        $this ->dimensioni = $dimensioni;
-        $this ->caratteristiche = $caratteristiche;
+        $this->dimensioni = $dimensioni;
+        $this->caratteristiche = $caratteristiche;
 
-        parent :: __construct($immagine, $nome, $prezzo, )
+        parent::__construct($immagine, $nome, $prezzo);
 
     }
 

@@ -5,3 +5,13 @@
 - I prodotti saranno suddivisi anche per **tipologia** come cibogiochi, cucce, etc
 
 Stampiamo delle card contenenti i dettagli dei prodotti. -->
+
+
+<?php
+
+require_once __DIR__ . '/Classi/category.php';
+require_once __DIR__ . '/Classi/prodotto.php';
+require_once __DIR__ . '/Classi/giocattoli.php';
+require_once __DIR__ . '/Classi/cibo.php';
+require_once __DIR__ . '/Classi/accessorio.php';
+
